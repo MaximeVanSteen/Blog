@@ -1,11 +1,12 @@
 /* NAVBAR */
 .navbar-fixed-top, .navbar-nav > li > .dropdown-menu  {
   background-color: rgba(0,0,0,0.5);
+  font-family: 'Abel', sans-serif;
 }
-.nav.navbar-nav li a , .navbar-brand {
+.nav.navbar-nav li a , .navbar-brand, .navbar-brand:hover  {
    color: white;
  }
-.nav.navbar-nav a:hover, .navbar-brand:hover  {
+.nav.navbar-nav a:hover {
  color: grey;
 }
 .navbar-toggle .icon-bar {
@@ -15,19 +16,19 @@
 /* BANNER */
 #banner{
   text-align: center;
-  background-image: url(images/banner-index.jpg);
+  background-image: url(images/banner-index-opaque.jpg);
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;
-  padding: 150px;
+  padding: 100px 0px;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 0px 1px 1px black;
+  font-family: 'Abel', sans-serif;
 }
 #banner h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 #banner p {
-  opacity: 0.8;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: lighter;
 }
 .card{
