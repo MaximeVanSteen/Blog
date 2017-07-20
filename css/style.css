@@ -30,6 +30,7 @@ a {
 
 /* NAVBAR */
 .navbar-custom {
+	z-index: 1000;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -46,7 +47,7 @@ a {
 	text-transform: uppercase;
 	font-size: 12px;
 }
-.navbar-custom .nav li a {
+.navbar-custom .nav li a, .sidebar-nav li a {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 800;
@@ -56,7 +57,7 @@ a {
 
 /* HEADER */
 .intro-header {
-	z-index: 1000;
+	position: relative;
 	background-color: #777777;
     background: no-repeat center center;
     background-attachment: scroll;
@@ -78,14 +79,12 @@ hr.small {
 
 
 /* LEFT NAVBAR */
-/* make sidebar nav vertical */ 
 .sidebar-wrapper {
-    z-index: 500;
-    position: fixed;
+    position: absolute;
     left: 0;
     width: 20%;
     height: 100%;
-    overflow-y: auto;
+
     background: #F0EFEE;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -102,21 +101,27 @@ hr.small {
     list-style: none;
 }
 .sidebar-nav li {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-indent: 20px;
     line-height: 40px;
+    color:#4f4f4f;
 }
-
-.sidebar-nav li a {
+#sticky {
+    display: none;
+}
+#sticky.fixed {
     display: block;
-    text-decoration: none;
-    color: #999;
+    position: fixed;
+    top: 0;
 }
-
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #0085A1;
     background: rgba(255,255,255,0.2);
 }
+
+
+/* ARTICLE SIDEBAR */
 .article-sidebar {
     right: 0;
     position: absolute;
