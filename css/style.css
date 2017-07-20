@@ -107,7 +107,7 @@ hr.small {
     color:#4f4f4f;
 }
 #sticky {
-    display: none;
+    position: relative;
 }
 #sticky.fixed {
     display: block;

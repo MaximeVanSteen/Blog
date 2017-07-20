@@ -8,7 +8,7 @@ $(document).ready(function() {
         }
         else
         {
-            $('#sticky').fadeOut(400).removeClass('fixed');
+            $('#sticky').fadeIn(400).removeClass('fixed');
         }
     });
 });
