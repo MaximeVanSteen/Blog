@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 // Smooth scrolling using the side navbar
-$(document).on('click', 'a', function(event){
+$(document).on('click', '.sidenavbar-button', function(event){
     event.preventDefault();
 
     $('html, body').animate({
