@@ -21,3 +21,5 @@ $(document).on('click', '.sidenavbar-button', function(event){
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
 });
+
+
