@@ -228,7 +228,7 @@ hr.small {
 	padding: 7% 7% 5% 7%;
 }
 .post-basic-info h3 {
-	color: #717171;
+	color: #646464; 
 	font-size: 1.5em;
 	margin-bottom: 0.2em;
 	display: block;
@@ -293,6 +293,15 @@ hr.small {
 	float:none;
 	margin:0em 0 0 0;
 	padding:0;
+}
+
+/* CONTACT */
+.contact {
+    padding: 2em 4em 0px 4em;
+}
+.contact h4 {
+	color: #646464;
+	font-size: 0.95em;
 }
 
 
