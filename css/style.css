@@ -111,7 +111,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #0085A1;
-    background: rgba(255,255,255,0.2);
+    background: #F0EFEE;;
 }
 .dropdown-menu {
 	position : static;
@@ -121,6 +121,7 @@ hr.small {
     box-shadow: none; 
     padding : 0px 0px 15px 0px;
 }
+
 
 
 /* ARTICLE SIDEBAR */
