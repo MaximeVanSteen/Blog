@@ -9,6 +9,8 @@ table{border-collapse:collapse;border-spacing:0;}
 img{max-width:100%;}
 
 
+
+
 /* GENERAL */
 body {
   	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -185,7 +187,7 @@ hr.small {
 
 
 /** INDEX : GRID CONTAINER: grille de posts utilisés dans l'index */
-.content{
+.content-index{
 	padding-top: 50px;
 	background-color: #F0EFEE;
 }
