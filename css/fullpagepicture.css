@@ -55,12 +55,12 @@ a {
 }
 
 /* CONTENT */
-.bg404 {
+.bg {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/404.jpg");
+  background-image: url("../img/500.jpg");
   height: 100%;
 }
 .caption {
@@ -110,7 +110,6 @@ footer {
 footer .copyright {
 	padding-top: 1em;
   	font-size: 0.8em;
-
   	margin-bottom: 0;
   	color: white;
 }
