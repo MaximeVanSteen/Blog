@@ -1,1 +1,2 @@
 ErrorDocument 404 http://www.maximevansteenberghe.com/404.html
+ErrorDocument 500 http://www.maximevansteenberghe.com/500.html
