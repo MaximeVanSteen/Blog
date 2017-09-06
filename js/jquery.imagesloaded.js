@@ -1,11 +1,6 @@
 /*!
+ * Used in Index page to organise Blog posts
  * imagesLoaded PACKAGED v3.0.4
- * JavaScript is all like "You images are done yet or what?"
- */
-
-/*!
- * EventEmitter v4.2.0 - git.io/ee
- * Oliver Caldwell
  * MIT license
  * @preserve
  */

@@ -1,3 +1,6 @@
+/*!
+ * Used in the Photos / Poesies / Dessins page for sidenavbar
+ */
 
 $(document).ready(function() {
     // Fix Navbar to the top of the window when scrolling below header

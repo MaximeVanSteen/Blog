@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /contact.html
+
+User-Agent: *
+Allow: /
+Sitemap: http://www.maximevansteenberghe.com/sitemap.txt
